@@ -2,9 +2,9 @@ G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\bin\Debug\PDApp_WIN.exe.config
 G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\bin\Debug\PDApp_WIN.exe
 G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\bin\Debug\PDApp_WIN.pdb
 G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Debug\PDApp_WIN.csproj.AssemblyReference.cache
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Debug\PDApp_WIN.FormPDApp_WIN.resources
 G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Debug\PDApp_WIN.Properties.Resources.resources
 G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Debug\PDApp_WIN.csproj.GenerateResource.cache
 G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Debug\PDApp_WIN.csproj.CoreCompileInputs.cache
 G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Debug\PDApp_WIN.exe
 G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Debug\PDApp_WIN.pdb
-G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Debug\PDApp_WIN.FormPDApp_WIN.resources

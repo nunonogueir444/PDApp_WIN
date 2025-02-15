@@ -19,6 +19,8 @@ namespace PDApp_WIN
         private readonly ClassSysTime SysTime;
         private readonly ClassButtonRun ButtonRun;
 
+        readonly string appVersion = "v0.3 testing";
+
         //#############################################################################################
         public FormPDApp_WIN()
         {
@@ -51,10 +53,10 @@ namespace PDApp_WIN
             });
 
             comboBox_BatteryType.Items.AddRange(new object[] {
-                "0 - C",
+                "0 - CC",
                 "1 - CS",
-                "2 - M",
-                "3 - A",
+                "2 - Mid",
+                "3 - Acu",
             });
 
         //#############################################################################################
@@ -66,6 +68,33 @@ namespace PDApp_WIN
         private void Button_Run_Click(object sender, EventArgs e)
         {
             ButtonRun.FuncButtonRun();
+        }
+
+        private void RestartToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Process.Start(Process.GetCurrentProcess().ProcessName);
+            Environment.Exit(0);
+        }
+
+        private void CloseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Windows.Forms.Application.Exit();
+        }
+
+        private void AboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("PDApp " + appVersion + "\n\n@Nuno Nogueira", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        private void Button_Run_MouseEnter(object sender, EventArgs e)
+        {
+            Button_Run.BackColor = Color.FromArgb(38, 38, 38);
+        }
+
+        private void Button_Run_MouseLeave(object sender, EventArgs e)
+        {
+            Button_Run.BackColor = Color.FromArgb(64, 64, 64);
         }
 
         //#############################################################################################
