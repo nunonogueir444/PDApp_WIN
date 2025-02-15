@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 //*********************************************************************
-using System.Windows.Forms;
+using Timer = System.Windows.Forms.Timer;
 //*********************************************************************
 
 namespace PDApp_WIN
@@ -31,7 +31,7 @@ namespace PDApp_WIN
             timer.Start();
         }
 
-        private void Timer_Tick(object sender, EventArgs e)
+        private void Timer_Tick(object? sender, EventArgs e)
         {
             label.Text = DateTime.Now.ToString("HH:mm:ss");
         }

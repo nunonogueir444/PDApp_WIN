@@ -4,9 +4,6 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//*********************************************************************
-using System.Windows.Forms;
-//*********************************************************************
 
 namespace PDApp_WIN
 {
@@ -20,11 +17,11 @@ namespace PDApp_WIN
 
         public ClassButtonRun(TextBox textBox_Serial, ComboBox comboBox_Model, ComboBox comboBox_Telematics, ComboBox comboBox_BatteryType, Label label_OutputArgs)
         {
-            this.textBox_Serial         = textBox_Serial;
-            this.comboBox_Model         = comboBox_Model;
-            this.comboBox_Telematics    = comboBox_Telematics;
-            this.comboBox_BatteryType   = comboBox_BatteryType;
-            this.label_OutputArgs       = label_OutputArgs;
+            this.textBox_Serial = textBox_Serial;
+            this.comboBox_Model = comboBox_Model;
+            this.comboBox_Telematics = comboBox_Telematics;
+            this.comboBox_BatteryType = comboBox_BatteryType;
+            this.label_OutputArgs = label_OutputArgs;
         }
 
         public void FuncButtonRun()
@@ -43,12 +40,19 @@ namespace PDApp_WIN
                 CreateNoWindow = true
             };
 
-            using (Process process = Process.Start(startInfo))
+            using (Process? process = Process.Start(startInfo))
             {
-                using (System.IO.StreamReader reader = process.StandardOutput)
+                if (process != null)
                 {
-                    string result = reader.ReadToEnd();
-                    label_OutputArgs.Text = result;
+                    using (System.IO.StreamReader reader = process.StandardOutput)
+                    {
+                        string result = reader.ReadToEnd();
+                        label_OutputArgs.Text = result;
+                    }
+                }
+                else
+                {
+                    label_OutputArgs.Text = "Failed to start process.";
                 }
             }
         }

@@ -1,0 +1,16 @@
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\obj\Debug\net8.0-windows\PDApp_WIN.FormPDApp_WIN.resources
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\obj\Debug\net8.0-windows\PDApp_WIN.csproj.GenerateResource.cache
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\obj\Debug\net8.0-windows\PDApp_WIN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\obj\Debug\net8.0-windows\PDApp_WIN.AssemblyInfoInputs.cache
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\obj\Debug\net8.0-windows\PDApp_WIN.AssemblyInfo.cs
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\obj\Debug\net8.0-windows\PDApp_WIN.csproj.CoreCompileInputs.cache
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\bin\Debug\net8.0-windows\PDApp_WIN.exe
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\bin\Debug\net8.0-windows\PDApp_WIN.deps.json
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\bin\Debug\net8.0-windows\PDApp_WIN.runtimeconfig.json
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\bin\Debug\net8.0-windows\PDApp_WIN.dll
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\bin\Debug\net8.0-windows\PDApp_WIN.pdb
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\obj\Debug\net8.0-windows\PDApp_WIN.dll
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\obj\Debug\net8.0-windows\refint\PDApp_WIN.dll
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\obj\Debug\net8.0-windows\PDApp_WIN.pdb
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\obj\Debug\net8.0-windows\PDApp_WIN.genruntimeconfig.cache
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN\obj\Debug\net8.0-windows\ref\PDApp_WIN.dll
