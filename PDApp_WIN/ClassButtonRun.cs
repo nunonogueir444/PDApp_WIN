@@ -33,7 +33,7 @@ namespace PDApp_WIN
 
             ProcessStartInfo startInfo = new ProcessStartInfo
             {
-                FileName = "G:\\GitHub_nunonogueir444\\PDApp_TERM\\PDApp_TERM\\bin\\Debug\\PDApp_TERM.exe",
+                FileName = "G:\\GitHub_nunonogueir444\\PDApp_TERM\\PDApp_TERM\\bin\\Debug\\net8.0\\PDApp_TERM.exe",
                 Arguments = $"\"{arg1}\" \"{arg2}\" \"{arg3}\" \"{arg4}\"",
                 RedirectStandardOutput = true,
                 UseShellExecute = false,

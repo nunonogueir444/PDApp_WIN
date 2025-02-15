@@ -1,6 +1,6 @@
 namespace PDApp_WIN
 {
-    internal static class ClassProgram
+    internal static class Program
     {
         /// <summary>
         ///  The main entry point for the application.
