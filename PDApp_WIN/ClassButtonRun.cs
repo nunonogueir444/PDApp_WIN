@@ -7,22 +7,13 @@ using System.Threading.Tasks;
 
 namespace PDApp_WIN
 {
-    class ClassButtonRun
+    class ClassButtonRun(TextBox textBox_Serial, ComboBox comboBox_Model, ComboBox comboBox_Telematics, ComboBox comboBox_BatteryType, Label label_OutputArgs)
     {
-        private readonly TextBox textBox_Serial;
-        private readonly ComboBox comboBox_Model;
-        private readonly ComboBox comboBox_Telematics;
-        private readonly ComboBox comboBox_BatteryType;
-        private readonly Label label_OutputArgs;
-
-        public ClassButtonRun(TextBox textBox_Serial, ComboBox comboBox_Model, ComboBox comboBox_Telematics, ComboBox comboBox_BatteryType, Label label_OutputArgs)
-        {
-            this.textBox_Serial = textBox_Serial;
-            this.comboBox_Model = comboBox_Model;
-            this.comboBox_Telematics = comboBox_Telematics;
-            this.comboBox_BatteryType = comboBox_BatteryType;
-            this.label_OutputArgs = label_OutputArgs;
-        }
+        private readonly TextBox textBox_Serial = textBox_Serial;
+        private readonly ComboBox comboBox_Model = comboBox_Model;
+        private readonly ComboBox comboBox_Telematics = comboBox_Telematics;
+        private readonly ComboBox comboBox_BatteryType = comboBox_BatteryType;
+        private readonly Label label_OutputArgs = label_OutputArgs;
 
         public void FuncButtonRun()
         {
@@ -31,7 +22,7 @@ namespace PDApp_WIN
             string arg3 = comboBox_Telematics.Text;
             string arg4 = comboBox_BatteryType.Text;
 
-            ProcessStartInfo startInfo = new ProcessStartInfo
+            ProcessStartInfo startInfo = new()
             {
                 FileName = "G:\\GitHub_nunonogueir444\\PDApp_TERM\\PDApp_TERM\\bin\\Debug\\net8.0\\PDApp_TERM.exe",
                 Arguments = $"\"{arg1}\" \"{arg2}\" \"{arg3}\" \"{arg4}\"",
