@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "VS5AeABJlvc=",
+  "success": true,
+  "projectFilePath": "G:\\GitHub_nunonogueir444\\PDApp_WIN\\PDApp_WIN\\PDApp_WIN.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\nnogu\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.13\\microsoft.net.illink.tasks.8.0.13.nupkg.sha512",
+    "C:\\Users\\nnogu\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\8.0.13\\microsoft.netcore.app.runtime.linux-x64.8.0.13.nupkg.sha512",
+    "C:\\Users\\nnogu\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\8.0.13\\microsoft.aspnetcore.app.runtime.linux-x64.8.0.13.nupkg.sha512",
+    "C:\\Users\\nnogu\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\8.0.13\\microsoft.netcore.app.host.linux-x64.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

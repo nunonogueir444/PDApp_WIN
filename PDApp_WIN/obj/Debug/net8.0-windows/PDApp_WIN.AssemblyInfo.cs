@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PDApp_WIN")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc14b09f16bedee39b747b194d8635faf1dd8196")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3fa9d0577d8d69bbe336a085b9f48b1ac96b7a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("PDApp_WIN")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PDApp_WIN")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

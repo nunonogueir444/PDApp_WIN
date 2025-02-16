@@ -1,0 +1,7 @@
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN.pdb
+C:\Users\nnogu\OneDrive\Desktop\D3DCompiler_47_cor3.dll
+C:\Users\nnogu\OneDrive\Desktop\PenImc_cor3.dll
+C:\Users\nnogu\OneDrive\Desktop\PresentationNative_cor3.dll
+C:\Users\nnogu\OneDrive\Desktop\vcruntime140_cor3.dll
+C:\Users\nnogu\OneDrive\Desktop\wpfgfx_cor3.dll
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN.exe
