@@ -1,0 +1,17 @@
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\bin\Release\net8.0-windows\PDApp_WIN.exe
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\bin\Release\net8.0-windows\PDApp_WIN.deps.json
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\bin\Release\net8.0-windows\PDApp_WIN.runtimeconfig.json
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\bin\Release\net8.0-windows\PDApp_WIN.dll
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\bin\Release\net8.0-windows\PDApp_WIN.pdb
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Release\net8.0-windows\PDApp_WIN.FormPDApp_WIN.resources
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Release\net8.0-windows\PDApp_WIN.csproj.GenerateResource.cache
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Release\net8.0-windows\PDApp_WIN.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Release\net8.0-windows\PDApp_WIN.AssemblyInfoInputs.cache
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Release\net8.0-windows\PDApp_WIN.AssemblyInfo.cs
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Release\net8.0-windows\PDApp_WIN.csproj.CoreCompileInputs.cache
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Release\net8.0-windows\PDApp_WIN.sourcelink.json
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Release\net8.0-windows\PDApp_WIN.dll
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Release\net8.0-windows\refint\PDApp_WIN.dll
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Release\net8.0-windows\PDApp_WIN.pdb
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Release\net8.0-windows\PDApp_WIN.genruntimeconfig.cache
+G:\GitHub_nunonogueir444\PDApp_WIN\PDApp_WIN\obj\Release\net8.0-windows\ref\PDApp_WIN.dll

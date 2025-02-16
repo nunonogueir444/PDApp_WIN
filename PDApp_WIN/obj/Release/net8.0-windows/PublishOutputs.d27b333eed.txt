@@ -1,0 +1,5 @@
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN.exe
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN.dll
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN.deps.json
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN.runtimeconfig.json
+C:\Users\nnogu\OneDrive\Desktop\PDApp_WIN.pdb
