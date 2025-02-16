@@ -34,17 +34,17 @@
             quitToolStripMenuItem = new ToolStripMenuItem();
             helpToolStripMenuItem = new ToolStripMenuItem();
             aboutToolStripMenuItem = new ToolStripMenuItem();
-            textBox_TruckSerial = new TextBox();
-            comboBox_TruckModel = new ComboBox();
-            comboBox_Telematics = new ComboBox();
-            comboBox_BatteryType = new ComboBox();
-            label_TruckSerial = new Label();
-            label_Model = new Label();
-            label_Telematics = new Label();
+            TextBox_MachineSerial = new TextBox();
+            ComboBox_MachineModel = new ComboBox();
+            ComboBox_Antenna = new ComboBox();
+            ComboBox_BatteryType = new ComboBox();
+            label_MachineSerial = new Label();
+            label_MachineModel = new Label();
+            label_Antenna = new Label();
             label_BatteryType = new Label();
-            label_SysTime = new Label();
-            label_OutputArgs = new Label();
-            button_Run = new Button();
+            Label_SysTime = new Label();
+            Label_OutputArgs = new Label();
+            Button_Run = new Button();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -70,14 +70,14 @@
             restartToolStripMenuItem.Name = "restartToolStripMenuItem";
             restartToolStripMenuItem.Size = new Size(168, 34);
             restartToolStripMenuItem.Text = "Restart";
-            restartToolStripMenuItem.Click += restartToolStripMenuItem_Click;
+            restartToolStripMenuItem.Click += RestartToolStripMenuItem_Click;
             // 
             // quitToolStripMenuItem
             // 
             quitToolStripMenuItem.Name = "quitToolStripMenuItem";
             quitToolStripMenuItem.Size = new Size(168, 34);
             quitToolStripMenuItem.Text = "Exit";
-            quitToolStripMenuItem.Click += quitToolStripMenuItem_Click;
+            quitToolStripMenuItem.Click += QuitToolStripMenuItem_Click;
             // 
             // helpToolStripMenuItem
             // 
@@ -91,124 +91,124 @@
             aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
             aboutToolStripMenuItem.Size = new Size(164, 34);
             aboutToolStripMenuItem.Text = "About";
-            aboutToolStripMenuItem.Click += aboutToolStripMenuItem_Click;
+            aboutToolStripMenuItem.Click += AboutToolStripMenuItem_Click;
             // 
-            // textBox_TruckSerial
+            // TextBox_MachineSerial
             // 
-            textBox_TruckSerial.Location = new Point(28, 152);
-            textBox_TruckSerial.Name = "textBox_TruckSerial";
-            textBox_TruckSerial.Size = new Size(150, 31);
-            textBox_TruckSerial.TabIndex = 1;
+            TextBox_MachineSerial.Location = new Point(12, 120);
+            TextBox_MachineSerial.Name = "TextBox_MachineSerial";
+            TextBox_MachineSerial.Size = new Size(150, 31);
+            TextBox_MachineSerial.TabIndex = 1;
             // 
-            // comboBox_TruckModel
+            // ComboBox_MachineModel
             // 
-            comboBox_TruckModel.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox_TruckModel.FormattingEnabled = true;
-            comboBox_TruckModel.Location = new Point(232, 152);
-            comboBox_TruckModel.Name = "comboBox_TruckModel";
-            comboBox_TruckModel.Size = new Size(182, 33);
-            comboBox_TruckModel.TabIndex = 2;
-            comboBox_TruckModel.SelectedValueChanged += comboBox_TruckModel_SelectedValueChanged;
+            ComboBox_MachineModel.DropDownStyle = ComboBoxStyle.DropDownList;
+            ComboBox_MachineModel.FormattingEnabled = true;
+            ComboBox_MachineModel.Location = new Point(216, 120);
+            ComboBox_MachineModel.Name = "ComboBox_MachineModel";
+            ComboBox_MachineModel.Size = new Size(182, 33);
+            ComboBox_MachineModel.TabIndex = 2;
+            ComboBox_MachineModel.SelectedValueChanged += ComboBox_MachineModel_SelectedValueChanged;
             // 
-            // comboBox_Telematics
+            // ComboBox_Antenna
             // 
-            comboBox_Telematics.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox_Telematics.FormattingEnabled = true;
-            comboBox_Telematics.Location = new Point(450, 152);
-            comboBox_Telematics.Name = "comboBox_Telematics";
-            comboBox_Telematics.Size = new Size(96, 33);
-            comboBox_Telematics.TabIndex = 3;
+            ComboBox_Antenna.DropDownStyle = ComboBoxStyle.DropDownList;
+            ComboBox_Antenna.FormattingEnabled = true;
+            ComboBox_Antenna.Location = new Point(434, 120);
+            ComboBox_Antenna.Name = "ComboBox_Antenna";
+            ComboBox_Antenna.Size = new Size(96, 33);
+            ComboBox_Antenna.TabIndex = 3;
             // 
-            // comboBox_BatteryType
+            // ComboBox_BatteryType
             // 
-            comboBox_BatteryType.DropDownStyle = ComboBoxStyle.DropDownList;
-            comboBox_BatteryType.FormattingEnabled = true;
-            comboBox_BatteryType.Location = new Point(603, 152);
-            comboBox_BatteryType.Name = "comboBox_BatteryType";
-            comboBox_BatteryType.Size = new Size(182, 33);
-            comboBox_BatteryType.TabIndex = 4;
+            ComboBox_BatteryType.DropDownStyle = ComboBoxStyle.DropDownList;
+            ComboBox_BatteryType.FormattingEnabled = true;
+            ComboBox_BatteryType.Location = new Point(587, 120);
+            ComboBox_BatteryType.Name = "ComboBox_BatteryType";
+            ComboBox_BatteryType.Size = new Size(182, 33);
+            ComboBox_BatteryType.TabIndex = 4;
             // 
-            // label_TruckSerial
+            // label_MachineSerial
             // 
-            label_TruckSerial.AutoSize = true;
-            label_TruckSerial.Location = new Point(28, 124);
-            label_TruckSerial.Name = "label_TruckSerial";
-            label_TruckSerial.Size = new Size(103, 25);
-            label_TruckSerial.TabIndex = 5;
-            label_TruckSerial.Text = "Truck Serial:";
+            label_MachineSerial.AutoSize = true;
+            label_MachineSerial.Location = new Point(12, 92);
+            label_MachineSerial.Name = "label_MachineSerial";
+            label_MachineSerial.Size = new Size(129, 25);
+            label_MachineSerial.TabIndex = 5;
+            label_MachineSerial.Text = "Machine Serial:";
             // 
-            // label_Model
+            // label_MachineModel
             // 
-            label_Model.AutoSize = true;
-            label_Model.Location = new Point(232, 124);
-            label_Model.Name = "label_Model";
-            label_Model.Size = new Size(112, 25);
-            label_Model.TabIndex = 6;
-            label_Model.Text = "Truck Model:";
+            label_MachineModel.AutoSize = true;
+            label_MachineModel.Location = new Point(216, 92);
+            label_MachineModel.Name = "label_MachineModel";
+            label_MachineModel.Size = new Size(138, 25);
+            label_MachineModel.TabIndex = 6;
+            label_MachineModel.Text = "Machine Model:";
             // 
-            // label_Telematics
+            // label_Antenna
             // 
-            label_Telematics.AutoSize = true;
-            label_Telematics.Location = new Point(450, 124);
-            label_Telematics.Name = "label_Telematics";
-            label_Telematics.Size = new Size(96, 25);
-            label_Telematics.TabIndex = 7;
-            label_Telematics.Text = "Telematics:";
+            label_Antenna.AutoSize = true;
+            label_Antenna.Location = new Point(434, 92);
+            label_Antenna.Name = "label_Antenna";
+            label_Antenna.Size = new Size(82, 25);
+            label_Antenna.TabIndex = 7;
+            label_Antenna.Text = "Antenna:";
             // 
             // label_BatteryType
             // 
             label_BatteryType.AutoSize = true;
-            label_BatteryType.Location = new Point(603, 124);
+            label_BatteryType.Location = new Point(587, 92);
             label_BatteryType.Name = "label_BatteryType";
             label_BatteryType.Size = new Size(113, 25);
             label_BatteryType.TabIndex = 8;
             label_BatteryType.Text = "Battery Type:";
             // 
-            // label_SysTime
+            // Label_SysTime
             // 
-            label_SysTime.AutoSize = true;
-            label_SysTime.Location = new Point(687, 48);
-            label_SysTime.Name = "label_SysTime";
-            label_SysTime.Size = new Size(120, 25);
-            label_SysTime.TabIndex = 9;
-            label_SysTime.Text = "label_SysTime";
+            Label_SysTime.AutoSize = true;
+            Label_SysTime.Location = new Point(721, 46);
+            Label_SysTime.Name = "Label_SysTime";
+            Label_SysTime.Size = new Size(124, 25);
+            Label_SysTime.TabIndex = 9;
+            Label_SysTime.Text = "Label_SysTime";
             // 
-            // label_OutputArgs
+            // Label_OutputArgs
             // 
-            label_OutputArgs.AutoSize = true;
-            label_OutputArgs.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label_OutputArgs.Location = new Point(12, 237);
-            label_OutputArgs.Name = "label_OutputArgs";
-            label_OutputArgs.Size = new Size(170, 22);
-            label_OutputArgs.TabIndex = 10;
-            label_OutputArgs.Text = "label_OutputArgs";
+            Label_OutputArgs.AutoSize = true;
+            Label_OutputArgs.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label_OutputArgs.Location = new Point(12, 175);
+            Label_OutputArgs.Name = "Label_OutputArgs";
+            Label_OutputArgs.Size = new Size(170, 22);
+            Label_OutputArgs.TabIndex = 10;
+            Label_OutputArgs.Text = "Label_OutputArgs";
             // 
-            // button_Run
+            // Button_Run
             // 
-            button_Run.Location = new Point(428, 274);
-            button_Run.Name = "button_Run";
-            button_Run.Size = new Size(146, 80);
-            button_Run.TabIndex = 11;
-            button_Run.Text = "Run";
-            button_Run.UseVisualStyleBackColor = true;
-            button_Run.Click += button_Run_Click;
+            Button_Run.Location = new Point(565, 243);
+            Button_Run.Name = "Button_Run";
+            Button_Run.Size = new Size(150, 79);
+            Button_Run.TabIndex = 11;
+            Button_Run.Text = "Run";
+            Button_Run.UseVisualStyleBackColor = true;
+            Button_Run.Click += Button_Run_Click;
             // 
             // FormPDApp_WIN
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(853, 628);
-            Controls.Add(button_Run);
-            Controls.Add(label_OutputArgs);
-            Controls.Add(label_SysTime);
+            Controls.Add(Button_Run);
+            Controls.Add(Label_OutputArgs);
+            Controls.Add(Label_SysTime);
             Controls.Add(label_BatteryType);
-            Controls.Add(label_Telematics);
-            Controls.Add(label_Model);
-            Controls.Add(label_TruckSerial);
-            Controls.Add(comboBox_BatteryType);
-            Controls.Add(comboBox_Telematics);
-            Controls.Add(comboBox_TruckModel);
-            Controls.Add(textBox_TruckSerial);
+            Controls.Add(label_Antenna);
+            Controls.Add(label_MachineModel);
+            Controls.Add(label_MachineSerial);
+            Controls.Add(ComboBox_BatteryType);
+            Controls.Add(ComboBox_Antenna);
+            Controls.Add(ComboBox_MachineModel);
+            Controls.Add(TextBox_MachineSerial);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "FormPDApp_WIN";
@@ -227,16 +227,16 @@
         private ToolStripMenuItem quitToolStripMenuItem;
         private ToolStripMenuItem helpToolStripMenuItem;
         private ToolStripMenuItem aboutToolStripMenuItem;
-        private TextBox textBox_TruckSerial;
-        private ComboBox comboBox_TruckModel;
-        private ComboBox comboBox_Telematics;
-        private ComboBox comboBox_BatteryType;
-        private Label label_TruckSerial;
-        private Label label_Model;
-        private Label label_Telematics;
+        private TextBox TextBox_MachineSerial;
+        private ComboBox ComboBox_MachineModel;
+        private ComboBox ComboBox_Antenna;
+        private ComboBox ComboBox_BatteryType;
+        private Label label_MachineSerial;
+        private Label label_MachineModel;
+        private Label label_Antenna;
         private Label label_BatteryType;
-        private Label label_SysTime;
-        private Label label_OutputArgs;
-        private Button button_Run;
+        private Label Label_SysTime;
+        private Label Label_OutputArgs;
+        private Button Button_Run;
     }
 }

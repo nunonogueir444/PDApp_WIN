@@ -11,29 +11,29 @@ namespace PDApp_WIN
 {
     class ClassSysTime
     {
-        private readonly Timer timer;
-        private readonly Label label;
+        private readonly Timer Label_SysTime;
+        private readonly Label Label_OutputArgs;
 
-        public ClassSysTime(Label label)
+        public ClassSysTime(Label Label_OutputArgs)
         {
-            label.Text = DateTime.Now.ToString("HH:mm:ss");
+            Label_OutputArgs.Text = DateTime.Now.ToString("HH:mm:ss");
 
-            this.label = label;
-            timer = new Timer
+            this.Label_OutputArgs = Label_OutputArgs;
+            Label_SysTime = new Timer
             {
                 Interval = 1000
             };
-            timer.Tick += Timer_Tick;
+            Label_SysTime.Tick += Timer_Tick;
         }
 
         public void Start()
         {
-            timer.Start();
+            Label_SysTime.Start();
         }
 
         private void Timer_Tick(object? sender, EventArgs e)
         {
-            label.Text = DateTime.Now.ToString("HH:mm:ss");
+            Label_OutputArgs.Text = DateTime.Now.ToString("HH:mm:ss");
         }
     }
 }
