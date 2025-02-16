@@ -108,6 +108,7 @@
             comboBox_TruckModel.Name = "comboBox_TruckModel";
             comboBox_TruckModel.Size = new Size(182, 33);
             comboBox_TruckModel.TabIndex = 2;
+            comboBox_TruckModel.SelectedValueChanged += comboBox_TruckModel_SelectedValueChanged;
             // 
             // comboBox_Telematics
             // 
@@ -175,15 +176,16 @@
             // label_OutputArgs
             // 
             label_OutputArgs.AutoSize = true;
-            label_OutputArgs.Location = new Point(25, 483);
+            label_OutputArgs.Font = new Font("Consolas", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label_OutputArgs.Location = new Point(12, 237);
             label_OutputArgs.Name = "label_OutputArgs";
-            label_OutputArgs.Size = new Size(150, 25);
+            label_OutputArgs.Size = new Size(170, 22);
             label_OutputArgs.TabIndex = 10;
             label_OutputArgs.Text = "label_OutputArgs";
             // 
             // button_Run
             // 
-            button_Run.Location = new Point(331, 305);
+            button_Run.Location = new Point(428, 274);
             button_Run.Name = "button_Run";
             button_Run.Size = new Size(146, 80);
             button_Run.TabIndex = 11;
@@ -195,7 +197,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(853, 542);
+            ClientSize = new Size(853, 628);
             Controls.Add(button_Run);
             Controls.Add(label_OutputArgs);
             Controls.Add(label_SysTime);
